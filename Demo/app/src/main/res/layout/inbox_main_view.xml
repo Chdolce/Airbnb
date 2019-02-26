@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/InboxFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InboxFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="消息"
+        android:textSize="30sp"
+        android:gravity="bottom"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorwhite"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="68dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40sp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="top"
+            android:text="没有消息"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/bottom_color_normal"
+            android:text="@string/Inbox_information"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+        <Button
+            android:id="@+id/btn_inbox"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20sp"
+            android:background="@color/always_red"
+            android:text="开始探索"
+            android:textSize="25sp"
+            android:textColor="@color/colorwhite"/>
+    </LinearLayout>
+
+</LinearLayout>

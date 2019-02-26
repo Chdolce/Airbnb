@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MineFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true">
+        <LinearLayout
+            android:id="@+id/My_User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+
+
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/top_name"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:text="郑"
+                    android:textSize="33sp"
+                    android:textColor="#000000"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ID_warming"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <com.xykj.demo.ui.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:src="@drawable/touxiang"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/My_information"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:id="@+id/My_word_information"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="通知"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/My_icon_information"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="2"
+                android:src="@drawable/mine_ico_order" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="5dp"
+            android:background="#e9e9e9"
+            tools:ignore="PxUsage"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/My_travel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:id="@+id/My_word_travel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="旅程"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/My_icon_travel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="2"
+                android:src="@drawable/mine_ico_address" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#e9e9e9"
+            tools:ignore="PxUsage" />
+
+        <LinearLayout
+            android:id="@+id/My_travelfunds"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/My_word_travelfunds"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="旅行基金和礼金券"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/My_icon_travelfunds"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="right"
+                android:layout_height="match_parent"
+                android:src="@drawable/mine_ico_shoucang"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#e9e9e9"
+            tools:ignore="PxUsage" />
+
+        <LinearLayout
+            android:id="@+id/My_invitation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/My_word_invitation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="邀请好友"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/My_icon_invitation"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="right"
+                android:layout_height="match_parent"
+                android:src="@drawable/mine_ico_exit"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#e9e9e9"
+            tools:ignore="PxUsage" />
+
+        <LinearLayout
+            android:id="@+id/My_switch"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/My_word_switch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="切换至经营模式"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/My_icon_switch"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="right"
+                android:layout_height="match_parent"
+                android:src="@drawable/mine_ico_friend"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#e9e9e9"
+            tools:ignore="PxUsage" />
+
+        <LinearLayout
+            android:id="@+id/My_setting"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/My_word_setting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="设置"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/My_icon_setting"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="right"
+                android:layout_height="match_parent"
+                android:src="@drawable/mine_ico_settings"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#e9e9e9"
+            tools:ignore="PxUsage" />
+
+        <LinearLayout
+            android:id="@+id/My_help"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/My_word_help"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="获取帮助"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:id="@+id/My_icon_help"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="right"
+                android:layout_height="match_parent"
+                android:src="@drawable/mine_ico_question"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/isupdate"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+</ScrollView>

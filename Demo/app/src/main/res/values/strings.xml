@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ID_name">郑</string>
+    <string name="ID_warming">查看并编辑个人资料</string>
+    <string name="ID_buzhou">还差5步</string>
+    <string name="ID_beizhu">我们要求每一位爱彼迎用户在旅行或出租之前提供一些具体信息，现在就先来完成这一步吧。</string>
+    <string name="Inbox_information">找到喜欢的房源后，和房东取得联系。简单介绍一下自己并告诉他们您此行的目的。</string>
+    <string name="hide_down">隐藏</string>
+    <string name="comment_content">输入评论内容</string>
+    <string name="send">发送</string>
+</resources>

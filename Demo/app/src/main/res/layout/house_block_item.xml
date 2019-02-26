@@ -1,0 +1,49 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <!--圆角图片-->
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/show_house"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="170dp"
+        app:cardBackgroundColor = "#ef1233"
+        app:riv_border_width="0dip"
+        app:riv_corner_radius="3dip" />
+    <TextView
+        android:id="@+id/house_type"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:textColor="@color/always_red"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/house_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textColor="@color/bottom_color_normal"
+        android:textSize="20sp"/>
+</LinearLayout>
+</android.support.v7.widget.CardView>

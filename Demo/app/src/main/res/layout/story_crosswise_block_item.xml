@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8sp"
+    app:cardElevation="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp">
+<!--card_view:contentPadding 这个可以给你的内容加上padding属性
+card_view:cardBackgroundColor这个可以改变cardview的背景
+card_view:cardCornerRadius这个可以改变cardview圆角的大小
+card_view:cardElevation这个比较难解释，CardView的Z轴阴影，被用来决定阴影的大小以及柔和度，以至于可以逼真的模拟出对于深度效果的描述。说白点可以理解为阴影的大小
+andorid:foreground=”?android:attr/selectableItemBackground” 这个可以使CardView被点击后出现波纹效
+
+版权声明：本文为博主原创文章，转载请附上博文链接！-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/story_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/story_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>

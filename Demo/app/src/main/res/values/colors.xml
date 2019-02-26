@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#FFFFFF</color>-->
+    <!--<color name="colorPrimaryDark">#FFFFFF</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorwhite">#FFFFFF</color>-->
+    <!--<color name="bottom_color_normal">#616161</color>-->
+    <!--<color name="bottom_color_press">#D32F2F</color>-->
+    <!--<color name="always_green">#398287</color>-->
+    <!--<color name="always_red">#EC6564</color>-->
+    <!--<color name="colorGold">	#EEAD0E</color>-->
+    <!--<color name="colorBlack">#000000</color>-->
+    <color name="mainColor">#4dc445</color>
+    <!--<color name="white">#ffffff</color>-->
+    <color name="grey">#ececec</color>
+    <color name="txtgrey">#7c7b7b</color>
+    <!--<color name="greywhite">#aeacac</color>-->
+    <!--<color name="colorPrimary">#D32F2F</color>-->
+    <!--<color name="colorPrimaryDark">#D32F2F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="bottom_color_normal">#616161</color>
+    <color name="bottom_color_press">#D32F2F</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#398287</color>
+    <color name="always_green">#398287</color>
+    <color name="always_red">#EC6564</color>
+    <color name="colorGold">	#EEAD0E</color>
+    <color name="colorBlack">#000000</color>
+    <color name="white">#CCCCCCCC</color> <!-- 白色 -->
+    <color name="darkgray">#A9A9A9</color> <!-- 暗灰色 -->
+    <color name="transparent">#0000</color> <!-- 透明色 -->
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网易"
+        android:textSize="20sp"
+        android:gravity="bottom"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:textColor="#fff"
+        android:background="@color/bottom_color_press"
+        />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/home_viewpager_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:tabIndicatorColor="@color/bottom_color_press"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/bottom_color_press"
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        app:tabTextColor="@color/bottom_color_normal"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
